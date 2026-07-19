@@ -1,0 +1,8 @@
+- [x] Update `gradle/libs.versions.toml` with Koin dependencies
+- [x] Update `shared/build.gradle.kts` to include Koin
+- [x] Create common Koin module and initialization in `shared/src/commonMain/kotlin/com/sriwahyuni/moneywise/di/Koin.kt`
+- [x] Create Android platform module in `shared/src/androidMain/kotlin/com/sriwahyuni/moneywise/di/PlatformModule.android.kt`
+- [x] Create iOS platform module in `shared/src/iosMain/kotlin/com/sriwahyuni/moneywise/di/PlatformModule.ios.kt`
+- [x] Create `MainApplication.kt` in `androidApp`
+- [x] Update `AndroidManifest.xml` in `androidApp`
+- [x] Verify build and initialization

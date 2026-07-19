@@ -12,6 +12,9 @@ kotlin {
 }
 dependencies {
     implementation(project(":shared"))
+    implementation(libs.koin.android)
+    implementation(libs.koin.compose)
+    implementation(libs.koin.compose.viewmodel)
 
     implementation(libs.androidx.activity.compose)
 
